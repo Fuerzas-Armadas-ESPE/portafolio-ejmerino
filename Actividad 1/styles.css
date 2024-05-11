@@ -1,0 +1,167 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  overflow-y: auto; 
+  max-height: 100vh; 
+  margin: 0; 
+}
+
+header {
+  background-color: #00568b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #00568b;
+}
+
+section p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+section ul {
+  margin-bottom: 30px;
+}
+
+section ul li {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px; 
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+section ul li:hover {
+  transform: scale(1.05); 
+  background-color: #f0f0f0; 
+}
+
+section ul li:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #00568b;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.skill {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin: 10px; 
+  text-align: center; 
+}
+
+.skill:hover {
+  transform: scale(1.05); 
+  background-color: #f0f0f0; 
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #00568b;
+  margin: 0 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-link img {
+  width: 60%; 
+  height: auto;
+  display: block;
+  margin: auto; 
+}
+
+.contact-link:hover {
+  transform: scale(1.1);
+  background-color: #004b7f;
+}
